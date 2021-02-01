@@ -1,0 +1,12 @@
+#host serwera smpt, serwer poczty wychodzącej, przychodząca to imap i pop3, impa fajnie synchronizuje
+#kożystamy z imapa i smpt
+spring:
+  mail:
+    username: rafall
+    password: dupadupa
+    host: smtp.poóczta.onet.pl
+    port: 465
+    properties:
+      mail.smtp.ssl.enable: true
+      smtp:
+        auth: true
